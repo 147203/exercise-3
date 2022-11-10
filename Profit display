@@ -1,0 +1,23 @@
+#include <iostream>
+
+using namespace std;
+
+int main()  
+{
+    //variable declaration
+    int b_price, s_price, profit;
+    
+    //Asking input
+    cout<<"Input selling price is = "<<endl;
+    cin>>s_price;
+    cout<<"Input buying price = "<<endl;
+    cin>>b_price;
+    
+    //Profit
+    profit=s_price-b_price;
+    cout<<"Profit = "<<profit;
+    
+   
+
+    return 0;
+}
